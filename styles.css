@@ -1,0 +1,93 @@
+body {
+	text-align: center;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4CpvE7kz3Xh-sOOSEvWikr9AjRdVJdJ0BAfJcCOvwXV9wa4a9_2mU-jsDESG4SflvPEU&usqp=CAU");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+
+.main {
+	width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+    border-style: dotted;
+    border-color: white;
+}
+
+.player {
+    font-family: cursive;
+    font-size: 25px;
+    color: #343232;
+}
+
+.title {
+	font-family: fantasy;
+    font-size: 40px;
+}
+
+.user-desperation-input {
+	font-family: "Times New Roman";
+    width: 350px;
+    height: 30px;
+}
+
+.user-personality-input {
+	font-family: "Times New Roman";
+    width: 350px;
+    height: 30px;
+}
+
+.submit {
+	font-family: Monospace;
+    font-size: 18px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    border: solid white;
+  	box-shadow: 0 9px lightgrey;
+    background-color: #66F7F0; /* aqua */
+    color: white;
+}
+.submit:hover {
+	background-color: #C0FEFB; /* light aqua */
+    color: #657D7C; /* aqua & grey mix */
+}
+.submit:active {
+  background-color: white;
+  box-shadow: 0 5px grey;
+  transform: translateY(6px);
+}
+
+.counter1 {
+    color: red;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.new {
+   color: #130602;
+   font-family: monospace;
+   font-size: 20px;
+}
+
+.question-asked {
+    font-family: cursive;
+    font-size: 20px;
+    color: black;
+}
+
+
+.retry {
+    font-size: 20px;
+    color: white;
+    background-color: #CFC4B3;
+    border-radius: 10px;
+    padding: 15px 32px;
+}
